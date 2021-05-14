@@ -1,0 +1,866 @@
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- Media Query Settings -------- */
+/* -------- When Page is 1327px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 1327px) {
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- General Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .container-fluid {
+        width: 100%;
+        height: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-content {
+        position: relative;
+        width: 100%;
+        max-width: 1327px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Main Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    main {
+        position: relative;
+        top: 0px;
+    }
+
+    #covid-wrapper {
+        position: relative;
+        top: 100px; 
+    }
+
+    #about-wrapper {
+        position: relative;
+        top: 100px;
+    }
+
+    #services-wrapper {
+        position: relative;
+        top: 100px;
+    }
+
+    #referral-list {
+        position: relative;
+        top: 100px;
+    }
+
+    #forms-wrapper {
+        position: relative;
+        top: 100px;
+    }
+
+    #refill-wrapper {
+        position: relative;
+        top: 100px;
+    }
+
+    #contact-wrapper {
+        position: relative;
+        top: 100px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Main Text Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .main-text {
+        width: 70%;
+        height: 100%;
+        margin-top: 290px;
+    }
+}
+
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- Media Query Settings -------- */
+/* -------- When Page is 1086px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 1086px) {
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- General Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .container-fluid {
+        width: 100%;
+        height: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .main-content {
+        position: relative;
+        width: 100%;
+        max-width: 1086px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Main Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    main {
+        position: relative;
+        top: 0px;
+    }
+
+    #covid-wrapper {
+        position: relative;
+        top: 0px; 
+    }
+
+    #about-wrapper {
+        position: relative;
+        top: 0px;
+    }
+
+    #services-wrapper {
+        position: relative;
+        top: 0px;
+    }
+
+    #referral-list {
+        position: relative;
+        top: 0px;
+    }
+
+    #forms-wrapper {
+        position: relative;
+        top: 0px;
+    }
+
+    #refill-wrapper {
+        position: relative;
+        top: 0px;
+    }
+
+    #contact-wrapper {
+        position: relative;
+        top: 0px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Main Text Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .main-text {
+        width: 70%;
+        height: 100%;
+        margin-top: 50px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Header Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .main-header-wrapper {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        z-index: 999;
+    }
+
+    .main-header {
+        background-color: var(--lightgray);
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-bottom: 1px solid var(--lightgreen);
+    }
+
+    .header-flexrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Navigation -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .header-nav {
+        height: 100%;
+        max-height: 600px;
+        background-color: var(--lightgray);
+        border-bottom: 1px solid var(--lightgreen);
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: -15px;
+        padding: -15px;
+        text-align: center;
+    }
+    
+    .header-btn {
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Logo Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .header-logo {
+        margin: 0;
+        padding: 0;
+        height: 134px;
+        width: 100%;
+        max-width: 1086px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .header-logo a {
+        font-size: 20px;
+        color: var(--lightgray);
+        text-decoration: none;
+    }
+
+    .header-logo img {
+        max-width: 1086px;
+        max-height: 290px;
+    }
+}
+
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- Media Query Settings -------- */
+/* -------- When Page is 825px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 825px) {
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- General Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .container-fluid {
+        width: 100%;
+        height: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-content {
+        position: relative;
+        width: 100%;
+        max-width: 825px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Main Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    main {
+        position: relative;
+        top: 0px;
+    }
+
+    #covid-wrapper {
+        position: relative;
+        top: 0px; 
+    }
+
+    #about-wrapper {
+        position: relative;
+        top: 0px;
+    }
+
+    #services-wrapper {
+        position: relative;
+        top: 0px;
+    }
+
+    #referral-list {
+        position: relative;
+        top: 0px;
+    }
+
+    #forms-wrapper {
+        position: relative;
+        top: 0px;
+    }
+
+    #refill-wrapper {
+        position: relative;
+        top: 0px;
+    }
+
+    #contact-wrapper {
+        position: relative;
+        top: 0px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Main Text Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .main-text {
+        width: 75%;
+        height: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .main-text hr {
+        background-color: #848b8a;
+        height: 1px;
+        width: 100%;
+        margin: 1.625em;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Header Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .main-header-wrapper {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        z-index: 999;
+    }
+
+    .main-header {
+        background-color: var(--lightgray);
+        width: 100%;
+        max-width: 900px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-bottom: 1px solid var(--lightgreen);
+    }
+
+    .header-flexrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Logo Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .header-logo {
+        margin: 0;
+        padding: 0;
+        height: 134px;
+        width: 100%;
+        max-width: 825px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .header-logo a {
+        font-size: 20px;
+        color: var(--lightgray);
+        text-decoration: none;
+    }
+
+    .header-logo img {
+        max-width: 825px;
+        max-height: 290px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Contact Info Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .contact-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .header-info {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        padding-left: 15px;
+        height: 134px;
+        width: 845px;
+        border-bottom: 1px solid var(--lightgreen);
+    }
+
+    .header-info:last-child {
+        border-bottom: none;
+    }
+
+    .header-info-icon i::before {
+        font-size: 25px;
+        color: var(--darkgreen);
+        line-height: 1;
+        display: block;
+        margin: 0.455em;
+    }
+
+    .header-info:nth-child(2) {
+        margin-right: 18px;
+    }
+
+    .header-info:nth-child(3) {
+        margin-right: -10px;
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Page Title Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .page-title h1 {
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 40px;
+        margin-bottom: 5px;
+        text-align: center;   
+    }
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* -------- Footer Settings -------- */
+    /* ---------------- */
+    /* ---------------- */
+    /* ---------------- */
+    .footer-container p {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- About Responsiveness -------- */
+/* -------- When Page is 1327px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 1327px) {
+    .profile-content {
+        width: 100%;
+        height: 95vh;
+    }
+}
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- About Responsiveness -------- */
+/* -------- When Page is 1086px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 1086px) {
+
+    .about-content {
+        width: 100%;
+        height: 210vh;
+    }
+
+    .profile-content {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .doctor-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doctor-profile {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        position: relative;
+        padding: 15px 15px 30px 15px;
+    }
+}
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- About Responsiveness -------- */
+/* -------- When Page is 820px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 820px) {
+    .about-content {
+        width: 100%;
+        height: 220vh;
+    }
+
+    .profile-content {
+        width: 100%;
+        height: 140vh;
+    }
+
+    .doctor-profile {
+        flex: 0 0 33.333333%;
+        max-width: 290px;
+        position: relative;
+        padding: 15px 15px 30px 15px;
+    }
+}
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- Services Responsiveness -------- */
+/* -------- When Page is 1327px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 1327px) {
+    .services-content {
+        height: 120vh;
+    }
+    /* ---------------- */
+    /* -------- Referral List Settings -------- */
+    /* ---------------- */
+    #referral-list {
+        position: relative;
+        top: 80px;
+    }
+    .main-referral-wrapper {
+        margin-bottom: auto;
+        width: 100%;
+        height: 250vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+/* ---------------- */
+/* -------- Services Responsiveness -------- */
+/* -------- When Page is 1086px -------- */
+/* ---------------- */
+@media all and (max-width: 1086px) {
+    .services-content {
+        height: 130vh;
+    }
+    /* ---------------- */
+    /* -------- Referral List Settings -------- */
+    /* ---------------- */
+    #referral-list {
+        position: relative;
+        top: 0px;
+    }
+    .main-referral-wrapper {
+        margin-bottom: auto;
+        width: 100%;
+        height: 310vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+/* ---------------- */
+/* -------- Services Responsiveness -------- */
+/* -------- When Page is 900px -------- */
+/* ---------------- */
+@media all and (max-width: 900px) {
+    .services-content {
+        height: 145vh;
+    }
+    /* ---------------- */
+    /* -------- Referral List Settings -------- */
+    /* ---------------- */
+    #referral-list {
+        position: relative;
+        top: 0px;
+    }
+
+    .main-referral-wrapper {
+        margin-bottom: auto;
+        width: 100%;
+        height: 310vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+/* ---------------- */
+/* -------- Services Responsiveness -------- */
+/* -------- When Page is 750px -------- */
+/* ---------------- */
+@media all and (max-width: 750px) {
+
+    .services-content {
+        height: 205vh;
+    }
+    /* ---------------- */
+    /* -------- Referral List Settings -------- */
+    /* ---------------- */
+    #referral-list {
+        position: relative;
+        top: -200px;
+    }
+
+    .main-referral-wrapper {
+        margin-bottom: auto;
+        width: 100%;
+        height: 330vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .referral-table {
+        margin: 0 0 1.625em;
+        width: 100%;
+        height: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    .table-title {
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.625em;
+        color: #373737;
+    }
+
+    td {
+        padding: 6px 46.9px 6px 0px;
+    }
+    /* ---------------- */
+    /* -------- Collapsible Settings -------- */
+    /* ---------------- */
+    .collapsible {
+        background-color: #777;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px;
+        width: 112%;
+        border: none;
+        font-size: 15px;
+        text-align: left;
+        outline: none;
+    }
+
+    .active, .collapsible:hover {
+        background-color: #555;
+    }
+
+    .content {
+        padding: 0 18px;
+        width: 112%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+        background-color: #f1f1f1;
+    }
+
+    .content span {
+        color: #373737;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.625em;
+        margin-right: 10px;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #373737;
+        margin-top: 5px;
+    }
+}
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- Forms Responsiveness -------- */
+/* -------- When Page is 1327px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 1327px) {
+    .form-content {
+        height: 110vh;
+    }
+}
+/* ---------------- */
+/* -------- Forms Responsiveness -------- */
+/* -------- When Page is 820px -------- */
+/* ---------------- */
+@media all and (max-width: 820px) {
+    .forms li {
+        width: 400px;
+    }
+}
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- Contact Responsiveness ------- */
+/* -------- When Page is 1086px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 1086px) {
+
+    .contact-content {
+        height: 170vh;
+    }
+
+    .contact-row {
+        flex-direction: column;
+    }
+
+    .contact-column iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    .contact-column:first-child {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 100%;
+        padding-left: 50%;
+        padding-right: 50%;
+        border-bottom: 10px solid #fff;
+    }
+
+    .legend h3 {
+        margin: 20px auto;
+        padding: 0 15px 15px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        color: #845c3d;
+        font-size: 18px;
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .contact-form {
+        position: relative;
+        margin: 20px auto;
+        color: #373737;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.625em;
+        width: 100%;
+        max-width: 490px;
+    }
+}
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+/* -------- Contact Responsiveness ------- */
+/* -------- When Page is 820px -------- */
+/* ---------------- */
+/* ---------------- */
+/* ---------------- */
+@media all and (max-width: 820px) {
+
+    .contact-content {
+        height: 180vh;
+    }
+
+    .contact-row {
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .contact-column:first-child {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .legend h3 {
+        margin: 20px auto;
+        padding: 0 15px 15px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        color: #845c3d;
+        font-size: 18px;
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .contact-form {
+        position: relative;
+        margin: 20px auto;
+        color: #373737;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.625em;
+        width: 100%;
+        max-width: 490px;
+    }
+}
