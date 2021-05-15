@@ -1,7 +1,8 @@
 /* --------Forms Settings-------- */
 
-.sub-header {
-    margin: 0 auto 20px;
+#forms-wrapper {
+    margin-top: 290px;
+    margin-bottom: 15px;
 }
 
 .forms {
