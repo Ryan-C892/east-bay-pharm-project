@@ -1,7 +1,8 @@
 /* --------Contact Settings-------- */
 
-.contact-content {
-    height: 115vh;
+#contact-wrapper {
+    margin-top: 290px;
+    height: 1200px;
 }
 
 .contact-content p {
