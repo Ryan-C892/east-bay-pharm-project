@@ -1,13 +1,12 @@
 /* --------Our Doctors Settings-------- */
 
-.about-content {
-    width: 100%;
-    height: 95vh;
+#about-wrapper {
+    margin-top: 210px;
+    height: 1000px;
 }
 
-.profile-content {
-    width: 100%;
-    height: 75vh;
+#profile-wrapper {
+    margin-top: 150px;
 }
 
 .doctor-container {
