@@ -1,7 +1,7 @@
 /* --------Services Settings-------- */
 
-.sub-header {
-    margin: 0 auto 20px;
+#services-wrapper {
+    margin-top: 220px;
 }
 
 .services ul {
@@ -53,8 +53,8 @@
 /* --------Referral List Settings-------- */
 
 .main-referral-wrapper {
-    margin-bottom: auto;
-    height: 300vh;
+    margin-top: 550px;
+    height: 2000px;
 }
 
 .referral-table {
