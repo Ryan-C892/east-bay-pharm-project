@@ -1,7 +1,9 @@
 /* --------Refills Settings-------- */
 
 #refill-wrapper {
-    margin-top: 1050px;
+    position: relative;
+    top: 100px;
+    margin-top: 990px;
     height: 2000px;
 }
 
