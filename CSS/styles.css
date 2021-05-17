@@ -337,16 +337,13 @@ nav ul {
 /* --------Page Title Settings-------- */
 
 .page-title-wrapper {
-    background-image: url("../images/IMG_0405.jpeg");
+    background-image: url("../images/IMG_0405\ 2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin-bottom: -30px;
+    margin-top: 223px;
     width: 100%;
-    height: 1100px;
+    height: 900px;
 }
 
 .page-title-wrapper::before {
@@ -372,7 +369,7 @@ nav ul {
 
 .page-title {
     position: relative;
-    top: 500px;
+    top: 450px;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
@@ -388,6 +385,33 @@ nav ul {
 
 /* --------Main Text Settings-------- */
 
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 120px;
+}
+
+.header h1 {
+    color: #373737;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.header hr {
+    background-color: #848b8a;
+    height: 1px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 300px;
+}
+
 .main-text {
     display: flex;
     flex-direction: column;
@@ -395,21 +419,8 @@ nav ul {
     align-items: center;
     height: 1000px;
     width: 65%;
+    padding-top: 50px;
     text-align: left;
-}
-
-.main-text h1 {
-    color: #373737;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: 25px;
-}
-
-.main-text hr {
-    background-color: #848b8a;
-    height: 1px;
-    width: 35%;
-    margin: 1.625em;
 }
 
 .main-text p {
