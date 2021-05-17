@@ -1,12 +1,16 @@
 /* --------Our Doctors Settings-------- */
 
 #about-wrapper {
-    margin-top: 210px;
-    height: 1000px;
+    position: relative;
+    top: 210px;
+    margin-bottom: 170px; 
+    height: 1200px;
 }
 
 #profile-wrapper {
-    margin-top: 150px;
+    position: relative;
+    top: 125px;
+    height: 1125px;
 }
 
 .doctor-container {
