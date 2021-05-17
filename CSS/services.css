@@ -1,11 +1,17 @@
 /* --------Services Settings-------- */
 
+#services-menu {
+    margin-top: 0px;
+}
+
 #services-wrapper {
-    margin-top: 220px;
+    position: relative;
+    top: 60px;
+    margin-top: 200px;
+    height: 1200px;
 }
 
 .services ul {
-    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -14,7 +20,7 @@
 
 .services li {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     padding-top: 20px;
     margin-bottom: 15px;
@@ -32,6 +38,14 @@
     margin: 0 0 1.625em 1em;
 }
 
+.service-list-fix {
+    list-style: square;
+    color: #373737;
+    font-size: 18px;
+    margin: 0 0 1.625em 1em;
+    margin-bottom: 110px;
+}
+
 .service-list li {
     margin-top: 15px;
     line-height: 1.625em;
@@ -39,6 +53,10 @@
 
 .service-list-wrapper {
     text-align: left;
+}
+
+.services-para-fix {
+    padding-bottom: 100px;
 }
 
 .phone-num {
