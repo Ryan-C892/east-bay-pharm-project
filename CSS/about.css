@@ -7,6 +7,12 @@
     height: 1200px;
 }
 
+#profile-wrapper-long {
+    position: relative;
+    top: 125px;
+    height: 1125px;
+}
+
 #profile-wrapper {
     position: relative;
     top: 125px;
